@@ -9,3 +9,4 @@ A Rust tool for counting lines of code. Inspired by this [code kata](http://code
 - [ ] Ignore comments
 - [ ] Traverse directory
 - [ ] Make it configurable (input what constitutes comment, block comment, etc)
+- [ ] Create threads for directory traversal

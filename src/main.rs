@@ -1,3 +1,5 @@
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", rusty_lines::run());
 }
+
