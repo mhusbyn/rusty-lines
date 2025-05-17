@@ -16,7 +16,7 @@ impl CliArgs {
 
 fn main() {
     let args = CliArgs::parse();
-    println!("{}", rusty_lines::run());
+    println!("{}", rusty_lines::run(args.get_file_path()));
 }
 
 #[cfg(test)]
