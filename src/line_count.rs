@@ -18,8 +18,7 @@ mod tests {
     #[case(5)]
     #[case(10)]
     fn test_get_line_count_multiple_lines(#[case] num_lines: u32) {
-        let contents = std::iter::repeat("Hello, world!")
-            .take(num_lines as usize)
+        let contents = std::iter::repeat_n("Hello, world!", num_lines as usize)
             .collect::<Vec<_>>()
             .join("\n");
 
