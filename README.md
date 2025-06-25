@@ -8,6 +8,7 @@ this [code kata](http://codekata.com/kata/kata13-counting-code-lines/).
 - [x] Read in file and output number of lines
 - [x] Add CI pipeline
 - [x] Validate file extension
+- [ ] Add pre-commit hook
 - [ ] Ignore whitespace
 - [ ] Ignore comments
 - [ ] Traverse directory

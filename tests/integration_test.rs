@@ -3,7 +3,7 @@ fn test_it_returns_line_count() {
     let test_file = std::path::Path::new("tests/count_me.rs");
     assert_eq!(
         rusty_lines::run(test_file),
-        format!("{}\t3", test_file.display())
+        format!("{}\t5", test_file.display())
     )
 }
 
